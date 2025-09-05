@@ -1,6 +1,10 @@
+import java.util.Scanner;
 public class prime {
     public static void main(String[] args ){
-        int n =7, div =2;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter number");
+    int n = sc.nextInt();
+        int div =2;
         while (div<n) {
             if(n%div==0){
                 System.out.println("number is not  prime");

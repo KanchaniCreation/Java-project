@@ -7,17 +7,20 @@ public static void main(String[] args) {
     int n = sc.nextInt();
 
     int sum=0,val=1;
-    while(val<=n) {
-    	sum=  sum +val;
-    	System.out.println(sum);
-    	val++ ;
-   
-
+  //  while(val<=n) {
+    //	sum=  sum +val;
+    //	System.out.println(sum);
+    //	val++ ;
+   for (int i = 1;i<=n;i++){
+    sum = sum+i;
+    System.out.println(sum);
+   }
+System.out.println(sum);
         }
-   System.out.println(sum);
+   
 
 
 
     }
     
-    }
+    
